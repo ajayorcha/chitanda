@@ -125,7 +125,6 @@ CHAT_CHECKER_HANDLER = MessageHandler(
 CHATLIST_HANDLER = CommandHandler("groups", chats, run_async=True)
 
 NEKO_PTB.add_handler(USER_HANDLER, USERS_GROUP)
-NEKO_PTB.add_handler(BROADCAST_HANDLER)
 NEKO_PTB.add_handler(CHATLIST_HANDLER)
 NEKO_PTB.add_handler(CHAT_CHECKER_HANDLER, CHAT_GROUP)
 
